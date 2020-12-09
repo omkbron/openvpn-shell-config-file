@@ -4,7 +4,7 @@
 
 KEY_DIR=~/openvpn/vpn-config/keys
 OUTPUT_DIR=~/openvpn/vpn-config/files
-BASE_CONFIG=~/openvpn/vpn-config/magnasus.conf
+BASE_CONFIG=~/openvpn/vpn-config/vpn.conf
 
 cat ${BASE_CONFIG} \
     <(echo -e '<ca>') \
